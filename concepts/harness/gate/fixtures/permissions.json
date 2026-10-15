@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "read:*",
+      "run:pytest",
+      "run:ruff",
+      "run:uv"
+    ],
+    "deny": [
+      "http_request:*",
+      "git_push:*"
+    ],
+    "require_approval": [
+      "write:src/**",
+      "write:tests/**"
+    ]
+  },
+  "sandbox": {
+    "enabled": true,
+    "fail_closed": true,
+    "backend": "landlock",
+    "note": "无可用后端时抛 SANDBOX_UNAVAILABLE，绝不裸跑"
+  },
+  "gate": {
+    "checks": ["ruff", "pytest"],
+    "on_failure": "❌ lint/测试未通过。\n✅ FIX: 按报告逐条修正（删未用 import、补齐空行、修失败用例），改完重跑 `uv run pytest && uv run ruff check .`。\n📖 See: docs/conventions/testing.md"
+  }
+}
