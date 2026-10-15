@@ -151,7 +151,7 @@ export default withMermaid({
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/kjiu72063-sudo/agent-arch-docs' },
+      { icon: 'github', link: 'https://github.com/mcll5/AI-agent' },
     ],
 
     docFooter: { prev: '上一页', next: '下一页' },
@@ -164,7 +164,7 @@ export default withMermaid({
     lastUpdatedText: '最后更新',
 
     footer: {
-      message: '✍️ 作者 <strong>Aer</strong> · <a href="https://github.com/kjiu72063-sudo/agent-arch-docs" target="_blank" rel="noopener">GitHub 仓库</a> · 内容持续更新中',
+      message: '✍️ 作者 <strong>Aer</strong> · <a href="https://github.com/mcll5/AI-agent" target="_blank" rel="noopener">GitHub 仓库</a> · 内容持续更新中',
       copyright: 'Agent 架构知识体系 · 图多字少 · 关系图即导航',
     },
   },
