@@ -31,7 +31,7 @@ features:
     details: 每个知识点讲清在体系中的位置；硬断言标注【事实】/【推断】来源。
 ---
 
-<div class="home-author">✍️ 作者 <strong>Aer</strong> · <a href="https://github.com/mcll5/AI-agent" target="_blank" rel="noopener">GitHub 仓库</a> · 最近更新 2026-09-18</div>
+<div class="home-author">✍️ 作者 <strong>mcll5</strong> · <a href="https://github.com/mcll5/AI-agent" target="_blank" rel="noopener">GitHub 仓库</a> · 最近更新 2026-09-18</div>
 
 ## 推荐阅读路径（从 0 到 1）
 
